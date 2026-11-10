@@ -70,3 +70,29 @@ section {
 span:not(.sr-only) {
   font-weight: normal;
 }
+
+
+table {
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
+}
+
+table caption {
+  color: #356eaf;
+  font-size: 1.3em;
+  font-weight: normal;
+  position: absolute;
+  top: -2.25rem;
+  left: 0.5rem;
+}
+
+tbody td {
+  width: 4rem;
+}
+
+tbody th {
+  width: calc(100% - 12rem);
+}
